@@ -21,6 +21,8 @@ int main()
     }
 
 
+    // TODO: create break and continue
+    // break - continue
 
     // switch - case - default
     switch (i)
@@ -37,6 +39,9 @@ int main()
         printf("default");
         break;
     }
+
+
+
 
     return 0;
 }
