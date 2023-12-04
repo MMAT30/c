@@ -20,23 +20,40 @@ int main()
         printf("else");
     }
 
-
-    // TODO: create break and continue
     // break - continue
+    while (i == 1) {
+        printf("break\n");
+        break;
+    }
+
+
+    for (int i = 0; i < 3; i++)
+    {
+        printf("continue\n");
+        continue;
+
+        printf("made it here - 1\n");
+
+        printf("made it here - 2\n");
+
+        printf("made it here - 3\n");
+    }
+
+    
 
     // switch - case - default
     switch (i)
     {
     case 0:
-        printf("case 0");
+        printf("case 0\n");
         break;
 
     case 1:
-        printf("case 1");
+        printf("case 1\n");
         break;
 
     default:
-        printf("default");
+        printf("default\n");
         break;
     }
 

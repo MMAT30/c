@@ -7,12 +7,11 @@ int main() {
 
 
     // for
-    for (int x = 0; x > 2; x++)
+    for (int x = 0; cnt < 2; x++)
     {
+        cnt++;
         printf("for = %d\n", x);
     }
-
-    // TODO: while - doWhile - goTo
 
     return 0;
 }
