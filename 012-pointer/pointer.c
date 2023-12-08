@@ -4,7 +4,8 @@
 int main()
 {
 
-    // creating null pointers
+    
+    // declaring variables
     char *strPtr = NULL;
     int *intPtr = NULL;
 
@@ -24,7 +25,7 @@ int main()
     printf("64 to ASCII(A) = %s\n", (char *)intPtr);
 
 
-    // TODO: example of pointer arithmetic
+    
 
 
 
@@ -47,7 +48,8 @@ int main()
     printf("const int *const p3 = %d\n", *p3);
 
 
-
+    
+    
 
     return 0;
 }
